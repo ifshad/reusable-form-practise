@@ -1,5 +1,6 @@
 import './App.css'
 import FormControlled from './FormControlled/FormControlled';
+import RefForm from './RefForm/RefForm';
 
 function App() {
   const handleSubmit = e => {
@@ -17,6 +18,7 @@ function App() {
         </div>
       </form>
       <FormControlled></FormControlled>
+      <RefForm></RefForm>
     </>
   )
 }
